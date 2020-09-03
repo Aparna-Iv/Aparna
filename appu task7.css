@@ -1,0 +1,176 @@
+.x{
+	display: flex;
+	flex-direction: column;
+}
+.a{
+	display: flex;
+	flex-direction: row;
+	border:2px solid black;
+}
+.b{
+	width:25%;
+
+}
+.b img{
+	width:100%;
+	height:100%;
+}
+.c{
+	width:100%;
+	padding-left: 280px;
+	padding-top:20px;
+	color:#333;
+}
+.d{
+	display: flex;
+	flex-direction: row;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left:900px;
+  overflow: hidden;
+  background-color: #000080;
+}
+li {
+  float: left;
+}
+
+li a{
+  color: white;
+  text-align: center;
+  padding:20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#111;
+}
+.e{
+	width: 100%;
+	margin-bottom:120px;
+}
+.e img{
+	width:100%;
+	height: 100%;
+}
+.f{
+	margin:20px;
+	border:1px solid blue;
+	background-color: skyblue;
+	color:white;
+}
+.g{
+	display: flex;
+	flex-direction:row;
+}
+.h{
+	width: 30%;
+	margin: 40px;
+}
+.h img{
+		width:100%;
+		border-radius: 50px;
+
+}
+.j{
+	width:60%;
+	color:blue;
+	font-size: 50px;
+}
+.l{
+	width:100%;
+}
+.l img{
+	width:100%;
+	height: 120%;
+	margin-left: 20px;
+	border-radius: 22px 26px;
+	margin-top: 10px;
+
+}
+.i{
+	display: flex;
+	flex-direction: row;
+}
+.k{
+	width:80%;
+	font-size:25px;
+	padding-top: 40px;
+	padding-left: 20px;
+
+	}
+}
+.m{
+	display: flex;
+	flex-direction: column;
+}
+.aa{
+	display: flex;
+	flex-direction:row;
+}
+.bb{
+	width:30%;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+.bb img{
+	width:90%;
+	border-radius: 16px 18px;
+}
+.ff{
+	color:orange;
+	width:80%;
+	margin: 10px;
+}
+.gg{
+	width:80%;
+	color:navy blue;
+	padding-left: 140px;
+	}
+}
+.dd{
+	width:40%;
+}
+.dd img{
+	width: 90%;
+}
+.ee{
+	width:50%;
+}
+.ee img{
+	width: 80%;
+	border-radius: 16px 18px;
+}
+.zz{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.cc{
+	display: flex;
+	flex-direction: row;
+}
+.hh{
+	width:60%;
+	padding-left: 140px;
+}
+.xy{
+	display: flex;
+	flex-direction: row;
+}
+.xz{
+	width:50%;
+	margin-top: 30px;
+	margin-right: 240px;
+}
+.yy{
+	width:30%;
+}
+.yy img{
+	width: 50%;
+	margin-top: 60px;
+}
