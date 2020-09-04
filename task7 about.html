@@ -20,12 +20,31 @@
 					All of IndusViva's products-iPulse,iCoffee,iSlim,iCharge and iGlow are purely wellness supplements.These products are not indended to prevent,diagnose,treat,or cure any diseases.IndusViva will not be responsible or liable for any representations or communications making claims otherwise;i.e., our products can be used for medical or diagnostic use.<br><br>
 					Here two things remarkable about indusviva products.First,the package of products is premier and products actually look branded.<br>Secondly,for these products havinh different websites specifically designed for each product.
 				</div>
-	 			<div class="l">
-					<img src="iv.jpg">
+	 			<div class="l" >
+  									<img class="q" src="p1.jpg">
+  									<img class="q" src="p4.jpg">
+  									<img class="q" src="iv.jpg">
+  									<img class="q" src="p2.jpg">
+  									<img class="q" src="p3.jpg">
 				</div>
 	</div>
-	<footer style="font-size: 18px;background-color:lightgreen;text-align:center;
-	margin-top: 100px;margin-bottom: 40px;">
+	<script>
+		var myIndex = 0;
+		carousel();
+		function carousel() {
+  			var i;
+  			var x = document.getElementsByClassName("q");
+  			for (i = 0; i < x.length; i++) {
+    			x[i].style.display = "none";  
+  			}
+  			myIndex++;
+ 			if (myIndex > x.length) {myIndex = 1}    
+  			x[myIndex-1].style.display = "block";  
+  			setTimeout(carousel,2000);
+  		}
+	</script>
+	<footer style="font-size: 18px;text-align:center;
+	margin-top: 100px;padding-top:40px;border-top:1px dashed brown;">
 		<a href="https://www.indusviva.com">https://www.indusviva.com</a>
 	</footer>
 
