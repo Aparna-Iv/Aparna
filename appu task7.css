@@ -1,3 +1,11 @@
+.bg{
+	background-image: url("ct.jpg");
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .x{
 	display: flex;
 	flex-direction: column;
@@ -183,11 +191,11 @@ li a:hover {
 	margin-right: 240px;
 }
 .yy{
-	width:10%;
+	width:30%;
 }
 .yy img{
 	width: 60%;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 .iii,.jjj,.kkk,.lll,.mmm{
 	background: transparent;
