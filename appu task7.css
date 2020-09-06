@@ -1,5 +1,5 @@
 .bg{
-	background-image: url("ct1.jpg");
+	background-image: url("ct.jpg");
   height: 100%; 
   width: 100%;
   background-position: center;
@@ -212,4 +212,38 @@ li a:hover {
 }
 .fff img{
 	width:20%;
+}		
+
+.www{
+	display: flex;
+	flex-direction: row;
+}
+.xxx{
+	width:15%;
+}
+.xxx img{
+	width: 50%;
+}
+.rrr{
+	display: flex;
+	flex-direction: row;
+}
+.sss{
+	width:15%;
+}
+.sss img{
+	width: 50%;
+}
+.xxx img{
+	width: 50%;
+}
+.uuu{
+	display: flex;
+	flex-direction: row;
+}
+.vvv{
+	width:20%;
+}
+.vvv img{
+	width: 50%;
 }
